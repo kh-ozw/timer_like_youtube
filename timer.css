@@ -3,6 +3,9 @@
     background-color: aqua;
 }
 */
+
+/*全体*/
+
 #timer-like-youtube {
     width: 40vw;
     height: 70vh;
@@ -21,14 +24,14 @@
     overflow: hidden;
     position: relative;
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 40vw;
     /*background-color: blueviolet;*/
 }
 
 #top-square-rapper {
     width: 40vw;
-    height: 5vh;
+    height: 6vh;
     position: absolute;
     z-index: 3;
     top: 26vh;
@@ -54,16 +57,9 @@
     background-color: pink;
 }
 
-#area1 {
-    width: 100%;
-    height: 20%;
-}
 
-#area2 {
-    width: 100%;
-    height: 19%;
-    background-color: aquamarine;
-}
+
+
 
 #timer {
     width: 100%;
@@ -87,6 +83,16 @@
     width: 100%;
     height: 14%;
     background-color: azure;
+}
+
+
+/*
+    1段目
+*/
+
+#area1 {
+    width: 100%;
+    height: 20%;
 }
 
 #pink-area {
@@ -114,15 +120,15 @@
 }
 
 .tile1 {
-    animation: slide1 3s linear infinite;
+    animation: slide1-1 3s linear infinite;
 }
 
 .tile2 {
-    animation: slide2 3s linear infinite;
+    animation: slide1-2 3s linear infinite;
 }
 
 
-@keyframes slide1 {
+/* @keyframes slide1-1 {
     0% {
         transform: translateX(-5vw);
     }
@@ -132,12 +138,223 @@
     }
 }
 
-@keyframes slide2 {
+@keyframes slide1-2 {
     0% {
         transform: translateX(18vw);
     }
 
     to {
         transform: translateX(43vw);
+    }
+} */
+
+/*
+    2段目
+*/
+
+#area2 {
+    width: 100%;
+    height: 19%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.color-square {
+    height: 100%;
+    min-width: 12vh;
+    animation: slide2-1 10s linear infinite;
+}
+
+.orange-tile {
+    background-color: rgb(247, 101, 34);
+}
+
+.pink-tile {
+    background-color: rgb(250, 77, 180);
+}
+
+.purple-tile {
+    background-color: rgb(156, 86, 255);
+}
+
+.blue-tile {
+    background-color: rgb(55, 132, 255);
+}
+
+.yellow-tile {
+    background-color: rgb(255, 191, 44);
+}
+
+.green-tile {
+    background-color: rgb(34, 212, 187);
+}
+
+@keyframes slide2-1 {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    to {
+        transform: translateX(-39vw);
+    }
+}
+
+/* .tile2-1 {
+    animation: slide2-1 3s linear infinite;
+}
+
+.tile2-2 {
+    animation: slide2-1 3s linear infinite;
+}
+
+.tile2-3 {
+    animation: slide2-1 3s linear infinite;
+}
+
+.tile2-4 {
+    animation: slide2-1 3s linear infinite;
+}
+
+.tile2-5 {
+    animation: slide2-5 3s linear infinite;
+}
+
+.tile2-6 {
+    animation: slide2-6 3s linear infinite;
+}
+
+.tile2-7 {
+    animation: slide2-7 3s linear infinite;
+}
+
+.tile2-8 {
+    animation: slide2-8 3s linear infinite;
+}
+
+.tile2-9 {
+    animation: slide2-9 3s linear infinite;
+}
+
+.tile2-10 {
+    animation: slide2-10 3s linear infinite;
+}
+
+.tile2-11 {
+    animation: slide2-11 3s linear infinite;
+}
+
+.tile2-12 {
+    animation: slide2-12 3s linear infinite;
+} */
+
+
+
+@keyframes slide2-2 {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    to {
+        transform: translateX(-50vw);
+    }
+}
+
+@keyframes slide2-3 {
+    0% {
+        transform: translateX(2vw);
+    }
+
+    to {
+        transform: translateX(-48vw);
+    }
+}
+
+@keyframes slide2-4 {
+    0% {
+        transform: translateX(15vw);
+    }
+
+    to {
+        transform: translateX(-35vw);
+    }
+}
+
+@keyframes slide2-5 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-6 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-7 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-8 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-9 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-10 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-11 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
+    }
+}
+
+@keyframes slide2-12 {
+    0% {
+        transform: translateX(vw);
+    }
+
+    to {
+        transform: translateX(vw);
     }
 }
